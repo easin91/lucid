@@ -1,0 +1,189 @@
+*{
+margin:0;
+padding:0;	
+}
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:14px;
+	line-height:24px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+a, a:hover{
+	text-decoration:none;
+}
+/* Lucid Global CSS starts */
+/* header section css starts */
+.header-section{
+	width:100%;
+	background:url("../images/banner.png")center top no-repeat;
+	background-size:cover;	
+}
+.header-section .main-menu{
+	width:100%;
+}
+.header-section .main-menu .bg-light{
+	background:transparent !important;
+}
+.header-section .main-menu .navbar-light .navbar-nav .active>.nav-link{
+	color:#fff;
+	background:url("../images/mh.png")center bottom no-repeat;
+}
+.header-section .main-menu .navbar-light .navbar-nav .nav-link{
+	color:#fff;
+	font-size:14px;	
+	text-transform:uppercase;
+	font-weight:600;
+	margin:0px 0px 0px 15px;
+}
+.header-section .main-menu .navbar-light .navbar-nav .nav-link:hover, .header-section .main-menu .navbar-light .navbar-nav .nav-link:focus{
+	color:#fff;
+	background:url("../images/mh.png")center bottom no-repeat;
+}
+.header-section .banner-section{
+	width:100%;
+	padding:120px 0px;
+}
+.header-section .banner-section h5{
+	font-size:16px;
+	text-transform:uppercase;
+	font-weight:600;
+	line-height:30px;
+	letter-spacing:3px;
+	color:#008ed6;
+}
+.header-section .banner-section h1{
+	font-size:42px;
+	font-weight:600;
+	line-height:45px;
+	color:#fff;
+	margin-bottom:20px;
+}
+.header-section .banner-section p{
+	font-size:14px;
+	font-weight:600;
+	line-height:24px;
+	color:#999;
+	margin-bottom:25px;
+}
+.inner-btn{	
+width:100%;
+margin-top:40px;
+}
+.inner-btn .btn-primary{
+padding:12px 28px;
+border-radius:3px;	
+font-size:14px;
+text-transform:uppercase;
+letter-spacing:3px;
+font-weight:600;
+color:#fff;
+background:#008ed6;
+border:1px solid;
+}
+.inner-btn .btn-primary:hover, .inner-btn .btn-primary:focus{
+	color:#008ed6;
+	background:transparent;
+	border:1px solid #008ed6;
+}
+.inner-btn .btn-light{
+margin-left:10px;
+padding:12px 28px;
+border-radius:3px;	
+font-size:14px;
+text-transform:uppercase;
+letter-spacing:3px;
+font-weight:600;
+color:#fff;
+background:transparent;
+border:1px solid #fff;
+transition:1s;
+}
+.inner-btn .btn-light:hover, .inner-btn .btn-light:focus{
+	color:#008ed6;
+	background:transparent;
+	border:1px solid #008ed6;
+}
+/* Global css for All Section title design */
+
+.title h5{
+	font-size:16px;
+	text-transform:uppercase;
+	font-weight:600;
+	line-height:30px;
+	letter-spacing:3px;
+	color:#008ed6;
+}
+..title h1{
+	font-size:42px;
+	font-weight:600;
+	line-height:45px;
+	color:#000;
+	margin-bottom:20px;
+}
+/* Global css for All Section title design end */
+/* Feature Section  CSS starts*/
+.feature{
+	width:100%;
+	padding:80px 0px;
+}
+.feature .inner-feature{
+	width:100%;
+	padding:20px 20px;
+	text-align:center;
+}
+.icon-box{
+	width:100%;
+	padding:15px 0px;
+}
+.icon-box .fa{
+	width:70px;
+	height:70px;
+	line-height:70px;
+	text-align:center;
+	border:1px solid #eee;
+	border-radius:50%;
+	color:#008ed6;
+	font-size:28px;
+}
+.inner-feature h4{
+	font-size:22px;
+	font-weight:600;
+	line-height:30px;
+	color:#000;
+}
+.inner-feature p{
+	font-size:14px;
+	font-weight:400;
+	line-height:24px;
+	color:#999;
+}
+/* Feature Section  CSS ends*/
+/* about-beauty Section  CSS starts*/
+.about-beauty{
+	width:100%;
+	padding:80px 0px;
+	border-top:1px solid #eee;
+}
+.about-beauty .title{
+	margin:40px 0px 25px;	
+}
+.about-beauty .content{
+	font-size:14px;
+	font-weight:400;
+	line-height:24px;
+	color:#999;
+}
+.about-beauty .list-para{
+	font-size:14px;
+	font-weight:600;
+	line-height:30px;
+	color:#000;
+}
+.about-beauty .list-para img{
+	margin-right:5px;
+}
+/* about-beauty Section  CSS ends*/
+
+/* Lucid */
